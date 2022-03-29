@@ -1,0 +1,14 @@
+E:\repos\Algoritmos_1\Exercicio049-\bin\Debug\netcoreapp3.1\Exercicio049.exe
+E:\repos\Algoritmos_1\Exercicio049-\bin\Debug\netcoreapp3.1\Exercicio049.deps.json
+E:\repos\Algoritmos_1\Exercicio049-\bin\Debug\netcoreapp3.1\Exercicio049.runtimeconfig.json
+E:\repos\Algoritmos_1\Exercicio049-\bin\Debug\netcoreapp3.1\Exercicio049.runtimeconfig.dev.json
+E:\repos\Algoritmos_1\Exercicio049-\bin\Debug\netcoreapp3.1\Exercicio049.dll
+E:\repos\Algoritmos_1\Exercicio049-\bin\Debug\netcoreapp3.1\Exercicio049.pdb
+E:\repos\Algoritmos_1\Exercicio049-\obj\Debug\netcoreapp3.1\Exercicio049.csproj.AssemblyReference.cache
+E:\repos\Algoritmos_1\Exercicio049-\obj\Debug\netcoreapp3.1\Exercicio049.GeneratedMSBuildEditorConfig.editorconfig
+E:\repos\Algoritmos_1\Exercicio049-\obj\Debug\netcoreapp3.1\Exercicio049.AssemblyInfoInputs.cache
+E:\repos\Algoritmos_1\Exercicio049-\obj\Debug\netcoreapp3.1\Exercicio049.AssemblyInfo.cs
+E:\repos\Algoritmos_1\Exercicio049-\obj\Debug\netcoreapp3.1\Exercicio049.csproj.CoreCompileInputs.cache
+E:\repos\Algoritmos_1\Exercicio049-\obj\Debug\netcoreapp3.1\Exercicio049.dll
+E:\repos\Algoritmos_1\Exercicio049-\obj\Debug\netcoreapp3.1\Exercicio049.pdb
+E:\repos\Algoritmos_1\Exercicio049-\obj\Debug\netcoreapp3.1\Exercicio049.genruntimeconfig.cache
