@@ -10,23 +10,23 @@ namespace Exercicio053
         static void Main(string[] args)
         {
             Console.Write("Digite um frase: ");
-            string frase = Console.ReadLine();
+            string frase = Console.ReadLine().ToLower();
             char[] arr = frase.ToCharArray();
-            string stringArr = arr.ToString();
-            string semEspacos = stringArr.Replace(" ", "");
+            string juntando = string.Join("",arr);
+            string semEspacos = juntando.Replace(" ", "");
             char[] arr2 = semEspacos.ToCharArray();
             Array.Reverse(arr2);
             string invertido = string.Join("",arr2);
-            if (frase == invertido)
+            if (semEspacos == invertido)
             {
                 Console.WriteLine("A frase É um palindromo\n" +
-                    $"{frase}\n" +
+                    $"{semEspacos}\n" +
                     $"{invertido}");
             }
             else
             {
                 Console.WriteLine("A frase NÂO É um palindromo\n" +
-                    $"{frase}\n" +
+                    $"{semEspacos}\n" +
                     $"{invertido}");
             }
         }
