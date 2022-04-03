@@ -11,27 +11,26 @@ namespace Exercicio055
         {
             float maior = 0;
             float menor = 0;
-            float guardandoMenor = menor;
             for (int i = 1; i <= 5; i++)
             {
                 Console.Write($"Digite o peso da {i}° pessoa: ");
                 float peso = float.Parse(Console.ReadLine());
+                if (i == 1)
+                {
+                    maior = peso;
+                    menor = peso;
+                }
                 if (peso > maior)
                 {
                     maior = peso;
                 }
-                if (peso < maior)
+                if (peso < menor)
                 {
                     menor = peso;
                 }
-                if (peso < guardandoMenor)
-                {
-                    menor = guardandoMenor;
-                }
             }
-            Console.WriteLine($"Maior: {maior}");
-            Console.WriteLine($"Maior: {menor}");
-
+            Console.WriteLine($"O MAIOR peso é: {maior}");
+            Console.WriteLine($"O MENOR peso é: {menor}");
         }
     }
 }

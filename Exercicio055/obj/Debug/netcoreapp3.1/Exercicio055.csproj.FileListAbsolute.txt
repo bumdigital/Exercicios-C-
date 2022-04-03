@@ -11,3 +11,4 @@ E:\repos\Algoritmos_1\Exercicio055\obj\Debug\netcoreapp3.1\Exercicio055.csproj.C
 E:\repos\Algoritmos_1\Exercicio055\obj\Debug\netcoreapp3.1\Exercicio055.dll
 E:\repos\Algoritmos_1\Exercicio055\obj\Debug\netcoreapp3.1\Exercicio055.pdb
 E:\repos\Algoritmos_1\Exercicio055\obj\Debug\netcoreapp3.1\Exercicio055.genruntimeconfig.cache
+E:\repos\Algoritmos_1\Exercicio055\obj\Debug\netcoreapp3.1\Exercicio055.csproj.AssemblyReference.cache
