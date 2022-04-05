@@ -18,11 +18,11 @@ namespace Exercicio065
             float media = 0;
             float numero = 0;
             string continuar = "";
-            while (continuar != "NÃO")
+            while (continuar != "N")
             {
                 Console.Write("Digite um numero: ");
                 numero = float.Parse(Console.ReadLine());
-                Console.Write("Deseja continuar? [SIM] [NÂO]: ");
+                Console.Write("Deseja continuar? [S/N]: ");
                 continuar = Console.ReadLine().ToUpper();
                 contador++;
                 acumulador += numero;
