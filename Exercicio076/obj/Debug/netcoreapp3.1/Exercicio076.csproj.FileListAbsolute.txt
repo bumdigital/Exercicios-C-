@@ -1,0 +1,14 @@
+E:\repos\Algoritmos_1\Exercicio076\bin\Debug\netcoreapp3.1\Exercicio076.exe
+E:\repos\Algoritmos_1\Exercicio076\bin\Debug\netcoreapp3.1\Exercicio076.deps.json
+E:\repos\Algoritmos_1\Exercicio076\bin\Debug\netcoreapp3.1\Exercicio076.runtimeconfig.json
+E:\repos\Algoritmos_1\Exercicio076\bin\Debug\netcoreapp3.1\Exercicio076.runtimeconfig.dev.json
+E:\repos\Algoritmos_1\Exercicio076\bin\Debug\netcoreapp3.1\Exercicio076.dll
+E:\repos\Algoritmos_1\Exercicio076\bin\Debug\netcoreapp3.1\Exercicio076.pdb
+E:\repos\Algoritmos_1\Exercicio076\obj\Debug\netcoreapp3.1\Exercicio076.csproj.AssemblyReference.cache
+E:\repos\Algoritmos_1\Exercicio076\obj\Debug\netcoreapp3.1\Exercicio076.GeneratedMSBuildEditorConfig.editorconfig
+E:\repos\Algoritmos_1\Exercicio076\obj\Debug\netcoreapp3.1\Exercicio076.AssemblyInfoInputs.cache
+E:\repos\Algoritmos_1\Exercicio076\obj\Debug\netcoreapp3.1\Exercicio076.AssemblyInfo.cs
+E:\repos\Algoritmos_1\Exercicio076\obj\Debug\netcoreapp3.1\Exercicio076.csproj.CoreCompileInputs.cache
+E:\repos\Algoritmos_1\Exercicio076\obj\Debug\netcoreapp3.1\Exercicio076.dll
+E:\repos\Algoritmos_1\Exercicio076\obj\Debug\netcoreapp3.1\Exercicio076.pdb
+E:\repos\Algoritmos_1\Exercicio076\obj\Debug\netcoreapp3.1\Exercicio076.genruntimeconfig.cache
