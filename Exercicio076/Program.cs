@@ -14,7 +14,16 @@ namespace Exercicio076
                 "fandangos", "8,50"};
             for (int i = 0; i < produtos.Length; i++)
             {
-                Console.Write($"{}");
+                string produto = "";
+                string preco = "";
+                if (Array.IndexOf(produtos, produtos[i]) % 2 == 0)
+                {
+                    produto = produtos[i];
+                } else
+                {
+                    preco = produtos[i];
+                }
+                Console.WriteLine($"{produto} R${preco}");
             }
         }
     }
