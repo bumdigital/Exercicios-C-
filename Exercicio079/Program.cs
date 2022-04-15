@@ -36,10 +36,14 @@ namespace Exercicio079
                 }
             }
             List<int> ordenado = numeros.OrderBy(x => x).ToList();
+            Console.WriteLine("##################################");
             for (int i = 0; i < numeros.Count; i++)
             {
-                Console.Write($"{ordenado[i]} - ");
+                string ifen = i == numeros.Count - 1 ? "" : " - ";
+                Console.Write($"{ordenado[i]}{ifen}");
             }
+            Console.WriteLine();
+            Console.WriteLine("##################################");
         }
     }
 }
