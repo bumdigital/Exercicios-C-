@@ -12,35 +12,38 @@ namespace Exercicio080
         static void Main(string[] args)
         {
             List<int> numeros = new List<int>();
-            int maior = 0;
-            int menor = 0;
-            for (int i = 1; i <= 5; i++)
+            for (int i = 0; i < 5; i++)
             {
-                Console.Write($"Digite o {i}° numero: ");
+                Console.Write($"Digite o {i+1}° numero: ");
                 int numero = int.Parse(Console.ReadLine());
-                if (i == 1)
+                if (i == 0 || numero > numeros[numeros.Count-1])
                 {
-                    maior = numero;
-                    menor = numero;
+                    Console.WriteLine($"O numero {numero} foi adicionado ao final da lista");
                     numeros.Add(numero);
-                } 
-                for (int j = 0; j < numeros.Count; j++) 
+                } else 
                 { 
-                    if (numero >= maior)
-                    {
-                        maior = numero;
-                        numeros.Insert(j+1, maior);
-                    } else if (numero <= menor)
-                    {
-                        menor = numero;
-                        numeros.Insert(j-1, menor);
+                    for (int j = 0; j < numeros.Count; j++) 
+                    { 
+                        if (numero <= numeros[j])
+                        {
+                            numeros.Insert(j, numero);
+                            Console.WriteLine($"O numero {numero} foi adicionado na " +
+                                $"posição {j} da lista");
+                            break;
+                        }
                     }
                 }
             }
-            foreach (int i in numeros)
+            int contador = 0;
+            Console.WriteLine("####################################");
+            foreach (int c in numeros)
             {
-                Console.Write($"{i} - ");
+                contador++;
+                string ifen = contador == numeros.Count ? "" : " - ";
+                Console.Write($"{c}{ifen}");
             }
+            Console.WriteLine();
+            Console.WriteLine("####################################");
         }
     }
 }
