@@ -165,9 +165,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio080", "Exercicio08
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio081", "Exercicio081\Exercicio081.csproj", "{341A8872-BD34-4111-B667-B60259BC03A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio082", "Exercicio082\Exercicio082.csproj", "{6601086E-E743-4F40-AF1A-7641A98E2DA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio082", "Exercicio082\Exercicio082.csproj", "{6601086E-E743-4F40-AF1A-7641A98E2DA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio083", "Exercicio083\Exercicio083.csproj", "{23908B5D-0DED-4C42-AF5B-832C8897A36E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio083", "Exercicio083\Exercicio083.csproj", "{23908B5D-0DED-4C42-AF5B-832C8897A36E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio084", "Exercicio084\Exercicio084.csproj", "{C009D4CD-66A5-4F0E-846D-24695DC90C52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -507,6 +509,10 @@ Global
 		{23908B5D-0DED-4C42-AF5B-832C8897A36E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23908B5D-0DED-4C42-AF5B-832C8897A36E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23908B5D-0DED-4C42-AF5B-832C8897A36E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C009D4CD-66A5-4F0E-846D-24695DC90C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C009D4CD-66A5-4F0E-846D-24695DC90C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C009D4CD-66A5-4F0E-846D-24695DC90C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C009D4CD-66A5-4F0E-846D-24695DC90C52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

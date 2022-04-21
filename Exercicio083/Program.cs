@@ -14,22 +14,22 @@ namespace Exercicio083
             string expressao = Console.ReadLine();
             int contAbrindo = 0;
             int contFechando = 0;
+            int condicao = 0;
             for (int i = 0; i < expressao.Length; i++)
             {
                 if (expressao[i].ToString() == "(")
                 {
                     contAbrindo++;
-                    for (int j = i; j < expressao.Length; j++)
+                } else if (expressao[i].ToString() == ")")
+                {
+                    if (contFechando <= contAbrindo - 1)
                     {
-                        if (expressao[j].ToString() == ")")
-                        {
-                            contFechando++;
-                            break;
-                        }
+                        condicao++;
                     }
+                    contFechando++;
                 }
             }
-            if (contAbrindo == contFechando)
+            if (contAbrindo == contFechando && condicao == contAbrindo)
             {
                 Console.WriteLine("A expressão está correta!");
             } else 
