@@ -17,8 +17,8 @@ namespace Exercicio084
             List<dynamic> cadastroEstruturado = new List<dynamic>();
             string continuar = "S";
             int contador = 0;
-            float pesado = 0;
-            float leve = 0;
+            dynamic pesado = 0;
+            dynamic leve = 0;
             for (int i = 0; continuar == "S"; i++)
             {     
                 var pessoa = new List<dynamic>();
@@ -49,27 +49,53 @@ namespace Exercicio084
             }
             string sustenido = "#################################";
             Console.WriteLine(sustenido);
+
+            //#########################################
+            //OPÇÃO PARA ESCREVER UMA MATRIZ
             for (int x = 0; x < cadastro.Count; x++)
             {
                 Console.Write("Nome: " + cadastro[x][0]);
                 Console.WriteLine(" peso: " + cadastro[x][1]);
             }
+            //##########################################
+
             Console.WriteLine(sustenido);
             foreach (var obj in cadastroEstruturado)
             {
                 Console.Write("Nome: " + obj.Nome);
                 Console.WriteLine(" peso: " + obj.Peso);
 
-                if (obj[cadastroEstruturado] == 0)
+                if (obj == cadastroEstruturado[0])
                 {
                     pesado = obj;
-                    cadastroEstruturado[i];
-                }
-                else if (cadastroEstruturado > )
+                    leve = obj;
+                } else if (obj.Peso > pesado.Peso)
                 {
-
+                    pesado = obj;
+                } else if (obj.Peso < leve.Peso)
+                {
+                    leve = obj;
                 }
             }
+            Console.WriteLine($"Foram cadastradas {contador} pessoas");
+            Console.Write($"O mais pesado é {pesado.Peso}. Peso de ");
+            foreach (var obj in cadastroEstruturado)
+            {
+                if (obj.Peso == pesado.Peso)
+                {
+                    Console.Write($"{obj.Nome} ");
+                } 
+            }
+            Console.WriteLine();
+            Console.Write($"O mais leve é {leve.Peso}. Peso de ");
+            foreach (var obj in cadastroEstruturado)
+            {
+                if (obj.Peso == leve.Peso)
+                {
+                    Console.Write($"{obj.Nome} ");
+                }
+            }
+            Console.WriteLine();
             Console.WriteLine(sustenido);
         }
     }
